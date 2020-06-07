@@ -1,5 +1,12 @@
 = Bit/Byte Size Constants and Utils
 
+image:https://img.shields.io/github/workflow/status/vulpine-io/bites/Go[GitHub Workflow Status]
+image:https://img.shields.io/badge/go-docs-ff69b4["Go Doc", link="https://pkg.go.dev/github.com/vulpine-io/bites"]
+image:https://goreportcard.com/badge/github.com/vulpine-io/bites[Go Report Card, link="https://goreportcard.com/report/github.com/vulpine-io/bites"]
+image:https://codecov.io/gh/vulpine-io/bites/branch/master/graph/badge.svg[codecov, link="https://codecov.io/gh/vulpine-io/bites"]
+image:https://img.shields.io/github/v/tag/vulpine-io/bites[GitHub tag (latest SemVer)]
+
+
 A collection of constants and helpers for bit/byte size formats.
 
 [source,go]
