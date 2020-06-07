@@ -1,0 +1,19 @@
+= Bit/Byte Size Constants and Utils
+
+A collection of constants and helpers for bit/byte size formats.
+
+[source,go]
+----
+package main
+
+import (
+  "fmt"
+  "github.com/vulpine-io/bites/v1/pkg/bites"
+)
+
+func main() {
+  fmt.Println(24 * bites.SizeGibibyte)                       // 24GiB
+  fmt.Println(int(13 * bites.SizeMegabyte))                  // 13000000
+  fmt.Println(bites.SizeKilobyte.ToBitSize().Base10String()) // 8Kb
+}
+----
